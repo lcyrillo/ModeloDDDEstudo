@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModeloDDDEstudo.Domain\ModeloDDDEstudo.Domain.csproj" />
+    <ProjectReference Include="..\ModeloDDDEstudo.Infra.Data\ModeloDDDEstudo.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
